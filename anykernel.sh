@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Stormbreaker by baibhab
+kernel.string=Stormbreaker by sparxfusion
 do.devicecheck=0
 do.modules=0
 do.systemless=1
@@ -20,7 +20,7 @@ supported.patchlevels=
 '; } # end properties
 
 # shell variables
-block=/dev/block/by-name/boot;
+block=/dev/block/platform/bootdevice/by-name/boot;
 is_slot_device=0;
 ramdisk_compression=auto;
 

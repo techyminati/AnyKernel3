@@ -1,8 +1,8 @@
-NAME ?= Stormbreaker
+NAME ?= RadeonKernel
 
 DATE := $(shell date "+%Y%m%d-%H%M")
 
-CODE := kernel
+CODE := Thunder
 
 ZIP := $(NAME)-$(CODE)-$(DATE).zip
 

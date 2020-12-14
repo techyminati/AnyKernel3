@@ -1,8 +1,8 @@
-NAME ?= RadeonKernel
+NAME ?= MinatiKernel
 
 DATE := $(shell date "+%Y%m%d-%H%M")
 
-CODE := Thunder
+CODE := Xenodrome
 
 ZIP := $(NAME)-$(CODE)-$(DATE).zip
 

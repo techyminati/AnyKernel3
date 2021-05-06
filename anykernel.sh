@@ -5,15 +5,15 @@
 # begin properties
 properties() { '
 kernel.string=MinatiKernel by TechyMinati
-do.devicecheck=0
-do.modules=0
+do.devicecheck=1
+do.modules=1
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=
-device.name2=
-device.name3=
-device.name4=
+device.name1=RMX2185
+device.name2=rmx2185
+device.name3=RMX2189
+device.name4=RMX2180
 device.name5=
 supported.versions=
 supported.patchlevels=

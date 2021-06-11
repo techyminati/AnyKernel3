@@ -6,21 +6,21 @@
 properties() { '
 kernel.string=MinatiKernel by TechyMinati
 do.devicecheck=1
-do.modules=1
+do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
 device.name1=RMX2185
 device.name2=rmx2185
 device.name3=RMX2189
-device.name4=RMX2180
+device.name4=
 device.name5=
 supported.versions=
 supported.patchlevels=
 '; } # end properties
 
 # shell variables
-block=/dev/block/platform/bootdevice/by-name/boot;
+block=/dev/block/by-name/boot;
 is_slot_device=0;
 ramdisk_compression=auto;
 

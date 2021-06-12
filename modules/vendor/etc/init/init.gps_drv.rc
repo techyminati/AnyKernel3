@@ -1,0 +1,4 @@
+
+# load gps_drv on boot 
+on boot
+  insmod /vendor/lib/modules/gps_drv.ko

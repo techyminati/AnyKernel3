@@ -1,0 +1,3 @@
+# load bt_drv on boot 
+on boot
+  insmod /vendor/lib/modules/bt_drv.ko

@@ -1,6 +1,0 @@
-
-# load wifi driver on boot
-on boot
-  insmod /vendor/lib/modules/wmt_chrdev_wifi.ko
-  insmod /vendor/lib/modules/wlan_drv_gen4m.ko
-  start wlan_assistant

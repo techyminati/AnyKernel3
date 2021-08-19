@@ -1,5 +1,0 @@
-
-# load fmradio_drv on boot
-on boot
-  insmod /vendor/lib/modules/fmradio_drv.ko
-

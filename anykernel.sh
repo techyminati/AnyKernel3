@@ -4,16 +4,16 @@
 ### AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=AnyKernel3
-do.devicecheck=0
+kernel.string=MinatiKernel by TechyMinati
+do.devicecheck=1
 do.modules=1
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=1
-device.name1=
-device.name2=
-device.name3=
-device.name4=
+device.name1=RMX3242
+device.name2=RM6833
+device.name3=cyllene
+device.name4=RMX3241
 device.name5=
 supported.versions=
 supported.patchlevels=
@@ -28,8 +28,8 @@ set_perm_recursive 0 0 750 750 $ramdisk/init* $ramdisk/sbin;
 
 
 ## boot shell variables
-block=auto;
-is_slot_device=auto;
+block=/dev/block/by-name/boot;
+is_slot_device=0;
 ramdisk_compression=auto;
 patch_vbmeta_flag=auto;
 

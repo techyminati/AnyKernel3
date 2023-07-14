@@ -1,8 +1,8 @@
-NAME ?= MinatiKernel
+NAME ?= PQEnablers
 
 DATE := $(shell date "+%Y%m%d-%H%M")
 
-CODE := cyllene
+CODE := Kernel
 
 ZIP := $(NAME)-$(CODE)-$(DATE).zip
 
